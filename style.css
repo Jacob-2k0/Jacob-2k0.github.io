@@ -1,5 +1,5 @@
 body {
-    background-image: url(bg.jpg);
+    background-image: url(assets/images/bg.jpg);
     background-size: cover;
 }
 
@@ -31,20 +31,10 @@ body {
 }
 .paragraph {
     float: right;
-    padding-right: 30px;
+    padding-left: 200px;
+    padding-right: 9px;
     font-size: 17px;
-}
-.paragraph2 {
-    float: right;
-    padding-right: 31px;
-    margin-top: -155px;
-    font-size: 17px;
-}
-.paragraph3 {
-    float: right;
-    padding-right: 87px;
-    margin-top: -120px;
-    font-size: 17px;
+    margin-top: -230px;
 }
 ul {
     float: right;

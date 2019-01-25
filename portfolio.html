@@ -6,7 +6,41 @@
 
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @media screen and (max-width: 1199px) {
+            #concert {
+                width : 230px;
+                height: 165px;
+            }
+            #train {
+                width : 235px;
+                height : 165px;
+            }
+        }
+        @media screen and (max-width: 980px) {
+            #concert {
+                width : 160px;
+                height: 125px;
+            }
+            #train {
+                width : 160px;
+                height : 125px;
+            }
+            .card-body {
+                height: 210px;
+            }
+        }
+        @media screen and (max-width: 764px) {
+            .nav {
+                margin-left:60px;
+            }
+            .media {
+                margin-left : 224px;
+                margin-top : -50px;
+            }
+        }
+    </style>
 
 </head>
 
@@ -24,7 +58,6 @@
                             <a class="nav-link" href="index.html">About</a>
                             <a class="nav-link active" href="#">Portfolio</a>
                             <a class="nav-link disabled" href="#">Coming Soon</a>
-                            <a class="nav-link disabled" href="#">Coming Soon</a>
                         </nav>
                     </div>
                     <div class="col-md-2"></div>
@@ -37,9 +70,9 @@
                             <strong><h3>Train Scheduler</h2></strong>
                         </div>
                         <div class="card-body">
-                            <img id="train" src="train.png">
+                            <img id="train" src="assets/images/train.png">
                             <a href="https://jacob-2k0.github.io/Train-Scheduler/">View on Github Pages</a><br>
-                            <a href="https://github.com/Jacob-2k0/Train-Scheduler">View Code</a>
+                            <a class="media" href="https://github.com/Jacob-2k0/Train-Scheduler">View Code</a>
                         </div>
                     </div>
                 </div>
@@ -49,9 +82,9 @@
                             <strong><h3>Concert Now 1.0</h2></strong>
                         </div>
                         <div class="card-body">
-                            <img id="concert" src="concert.png">
+                            <img id="concert" src="assets/images/concert.png">
                             <a href="https://taylorfantin.github.io/Project1/">View on Github Pages</a><br>
-                            <a href="https://github.com/taylorfantin/Project1">View Code</a>
+                            <a class="media" href="https://github.com/taylorfantin/Project1">View Code</a>
                         </div>
                     </div>
                 </div>
@@ -61,9 +94,9 @@
                             <strong><h3>Simple Trivia Game</h2></strong>
                         </div>
                         <div class="card-body">
-                            <img id="concert" src="trivia.png">
+                            <img id="concert" src="assets/images/trivia.png">
                             <a href="https://jacob-2k0.github.io/TriviaGame/">View on Github Pages</a><br>
-                            <a href="https://github.com/Jacob-2k0/TriviaGame">View Code</a>
+                            <a class="media" href="https://github.com/Jacob-2k0/TriviaGame">View Code</a>
                         </div>
                     </div>
                 </div>
