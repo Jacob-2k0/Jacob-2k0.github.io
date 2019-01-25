@@ -1,9 +1,64 @@
 body {
-    background : powderblue ;
+    background-image: url(bg.jpg);
+    background-size: cover;
 }
 
-p {
-    font-family : Georgia, 'Times New Roman', Times, serif ;
-    color : blue;
-    font-size: 35px;
+.jumbotron {
+    opacity: 0.75;
+    border-radius: 2px;
+    box-shadow : 0px 0px 0px 4px grey;
+}
+#home {
+    color : black;
+}
+.card-default {
+    opacity: 0.75;
+    border-radius: 2px;
+    box-shadow : 0px 0px 0px 4px grey;
+}
+.card-body {
+    opacity: 0.7;
+    border-radius: 2px;
+    box-shadow : 0px 0px 0px 4px grey;
+    height: 275px;
+}
+.ontop {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 11px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+.paragraph {
+    float: right;
+    padding-right: 30px;
+    font-size: 17px;
+}
+.paragraph2 {
+    float: right;
+    padding-right: 31px;
+    margin-top: -155px;
+    font-size: 17px;
+}
+.paragraph3 {
+    float: right;
+    padding-right: 87px;
+    margin-top: -120px;
+    font-size: 17px;
+}
+ul {
+    float: right;
+    list-style: none;
+    padding-right: 770px;
+}
+li {
+    margin-top: -50px;
+}
+#train {
+    height: 192px;
+    width: 300px;
+}
+#concert {
+    height: 192px;
+    width: 300px;
 }
