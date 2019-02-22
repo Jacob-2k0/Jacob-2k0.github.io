@@ -15,6 +15,7 @@ body {
     opacity: 0.75;
     border-radius: 2px;
     box-shadow : 0px 0px 0px 4px grey;
+    margin-bottom: 15px;
 }
 .card-body {
     opacity: 0.7;
